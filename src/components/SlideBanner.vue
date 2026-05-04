@@ -31,7 +31,7 @@
 <script setup>
 import All from "../assets/Images/ALL.jpg";
 import Men from "../assets/Images/Men.jpg";
-import Women from "../assets/Images/Women.jpg";
+import Women from "../assets/Images/women.jpg";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Swiper styles
