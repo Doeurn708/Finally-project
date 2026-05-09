@@ -13,7 +13,7 @@ import SlideBanner from "../components/SlideBanner.vue";
         WEllCOME TO D-shop
       </h1>
     </div>
-    <main class="w-[95%] m-auto mt-4 bg-slate-100 rounded-lg">
+    <main class="w-[95%] m-auto mt-4 py-5 bg-slate-100 rounded-lg">
       <RouterView />
     </main>
     <FooterPage/>
