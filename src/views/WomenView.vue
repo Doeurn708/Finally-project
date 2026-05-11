@@ -84,7 +84,7 @@
   <!-- 5. Product Grid -->
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 px-5 w-full mx-auto pb-10">
     <div
-      v-for="(pro, index) in MenProduct"
+      v-for="(pro, index) in womenProduct"
       :key="index"
       class="relative bg-white rounded-md overflow-hidden shadow-sm border hover:shadow-xl flex flex-col h-[480px]"
     >
@@ -138,8 +138,7 @@
 <script setup>
 import { ref, computed } from "vue";
 import { RouterLink } from "vue-router";
-import { MenProduct } from "../data/MenProduct";
-
+import { womenProduct } from "../data/WomenProduct";
 // State
 const selectedSizes = ref({}); // Tracks size for each product by index
 const cart = ref([]);          // Global cart array

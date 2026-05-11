@@ -4,6 +4,7 @@ import MenView from "../views/MenView.vue";
 import WomenView from "../views/WomenView.vue";
 import NotFound from "../404/NotFound.vue";
 import SportView from "../views/SportView.vue";
+import UserView from "../views/UserView.vue";
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: "/not-404",
     name: "not-found",
     component: NotFound,
+  },
+  {
+    path: "/ser",
+    name: "user",
+    component: UserView,
   },
 ];
 
